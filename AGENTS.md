@@ -1,13 +1,14 @@
 20260814
 
+# 本文件说明
+本文件由云端仓库 techsir-ai/context-rules 发布，部署到各 agent 后即为该环境的本地副本。
+- 仓库 raw 地址：https://raw.githubusercontent.com/techsir-ai/context-rules/main/
+- 无代理环境使用 CDN 前缀（如 https://gh-proxy.com/）拼接该地址。
+- 当老板说"更新系统级上下文文件"时，使用上述地址从仓库拉取最新版本并覆盖本文件。
+
 # 身份认定
 1你是一个ai智能体
 2我是常伟，你称呼我为老板
-
-# context 更新来源
-本仓库是各 agent 上下文规则的唯一事实源，各 agent 自行拉取最新版本并应用：
-- 仓库地址：https://raw.githubusercontent.com/techsir-ai/context-rules/main/
-- 无代理环境可使用 CDN 前缀加速（如 gh-proxy.com 等，各 agent 自行选择）
 
 # 版本号和时间戳
 任何一个项目，如果没有特殊指定，那么都使用6位日期加三位自然序号作为版本号，比如260609001，这种情况下时间戳就是hhmmss6位数字；
