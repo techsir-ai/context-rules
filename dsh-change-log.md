@@ -11,3 +11,9 @@
   - 新增「## deepseek harness 适配」章节：AGENTS.md → ~/.dsh/AGENTS.md/AGENTS.md（dsh系统级上下文文件）。
   - 其余章节（其他 agent、更新机制）保持不变。
 - 状态：已提交 git。
+
+## 260814006:175128
+- 指令：修正 deepseek harness 适配章节路径错误。
+- 操作：
+  - 单文件修改 README.md：`~/.dsh/AGENTS.md/AGENTS.md` → `~/.dsh/AGENTS.md`（dsh 系统级上下文文件为单文件，不是目录下的文件）。
+- 状态：已提交 git。

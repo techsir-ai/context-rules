@@ -8,7 +8,7 @@
    无代理环境用 CDN 前缀拼接，如 https://gh-proxy.com/https://raw.githubusercontent.com/techsir-ai/context-rules/main/opencode.md
 
 ## deepseek harness 适配
-1. AGENTS.md → ~/.dsh/AGENTS.md/AGENTS.md（dsh系统级上下文文件）
+1. AGENTS.md → ~/.dsh/AGENTS.md（dsh系统级上下文文件）
 
 ## 其他 agent
 待适配。
