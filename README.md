@@ -12,8 +12,7 @@
 
 ## WorkBuddy 适配
 1. context.md → ~/.workbuddy/CODEBUDDY.md（WorkBuddy系统级上下文文件）
-2. 或部署到具体项目的 AGENTS.md 作为项目级上下文
-3. WorkBuddy 上下文文件体系：
+2. WorkBuddy 上下文文件体系：
    - 系统级（~/.workbuddy/）：SOUL.md（身份内核）、IDENTITY.md（身份记录）、USER.md（用户画像）、CODEBUDDY.md（全局规则）、MEMORY.md（跨项目记忆）
    - 项目级（{workspace}/）：AGENTS.md（项目规则，自动注入为 project_context）
 
