@@ -1,4 +1,4 @@
-最后修改日期:260818，总第六次修改
+最后修改日期:260818，总第七次修改
 为了在各个不同的 agent 下都能使用统一的上下文文件，创建此仓库，作为各个不同的 agent 上下文规则的唯一事实源。修改一律通过本仓库提交。
 
 ## opencode 适配
@@ -13,6 +13,11 @@
 ## WorkBuddy 适配
 1. context.md → ~/.workbuddy/CODEBUDDY.md（WorkBuddy系统级上下文文件）
 2. WorkBuddy 系统级上下文文件体系（~/.workbuddy/）：SOUL.md（身份内核）、IDENTITY.md（身份记录）、USER.md（用户画像）、CODEBUDDY.md（全局规则）、MEMORY.md（跨项目记忆）
+
+## Hermes 适配
+1. context.md → ~/.hermes/SOUL.md（Hermes系统级上下文文件，始终加载，对应身份+全局规则）
+2. Hermes 无系统级 AGENTS.md 概念（AGENTS.md/CLAUDE.md 仅当前工作目录生效），官方明确不建议放 ~/.hermes/AGENTS.md
+3. 项目级上下文文件（.hermes.md 沿 git root 向上继承 / AGENTS.md / CLAUDE.md / .cursorrules）与系统级 SOUL.md 并存，系统级规则一律以本仓库 context.md 为唯一事实源
 
 ## 更新机制
 各 agent 从 context.md「本文件说明」段落读取仓库地址（base url 或 CDN 前缀），自行拉取更新。
