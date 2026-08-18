@@ -14,3 +14,5 @@
 | 260818-002734 | README第一行加日期版本（总第五次修改）；WorkBuddy适配段落删除项目级描述，只保留系统级 | README.md | git commit: 260818-002734:README加日期版本行+删除项目级描述只保留系统级 |
 | 260818-002944 | README删除标题行`# context-rules`，第一行直接为日期版本行（总第六次修改）；删除旧备份文件 AGENTS.md.001、README.md.001 | README.md | git commit: 260818-002944:README删除标题行+修正第一行为日期版本行+删除旧备份文件 |
 | 260818-003132 | context.md 部署到 ~/.workbuddy/CODEBUDDY.md（WorkBuddy系统级上下文文件），目录外文件无git，老板选择文件备份 | ~/.workbuddy/CODEBUDDY.md | 备份: ~/.workbuddy/CODEBUDDY.001.md |
+| 260819-012130 | context.md 部署到 ~/.config/opencode/AGENTS.md（opencode系统级上下文文件），从旧版（无版本行）更新到260818第十四次修改 | ~/.config/opencode/AGENTS.md | 备份: ~/.config/opencode/AGENTS.md.002 |
+| 260819-012130 | context.md 部署到 ~/.dsh/AGENTS.md（dsh系统级上下文文件），从260817第八次修改更新到260818第十四次修改 | ~/.dsh/AGENTS.md | 备份: ~/.dsh/AGENTS.md.003 |
