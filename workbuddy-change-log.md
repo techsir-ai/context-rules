@@ -16,3 +16,4 @@
 | 260818-003132 | context.md 部署到 ~/.workbuddy/CODEBUDDY.md（WorkBuddy系统级上下文文件），目录外文件无git，老板选择文件备份 | ~/.workbuddy/CODEBUDDY.md | 备份: ~/.workbuddy/CODEBUDDY.001.md |
 | 260819-012130 | context.md 部署到 ~/.config/opencode/AGENTS.md（opencode系统级上下文文件），从旧版（无版本行）更新到260818第十四次修改 | ~/.config/opencode/AGENTS.md | 备份: ~/.config/opencode/AGENTS.md.002 |
 | 260819-012130 | context.md 部署到 ~/.dsh/AGENTS.md（dsh系统级上下文文件），从260817第八次修改更新到260818第十四次修改 | ~/.dsh/AGENTS.md | 备份: ~/.dsh/AGENTS.md.003 |
+| 260819-012318 | 流程修正：012130 两条部署实际走了 curl /tmp 中转+cp 弯路，本次按正流程重做——git pull 同步仓库后，用仓库 context.md 覆盖 opencode 与 dsh 副本，五处副本（CODEBUDDY/SOUL/opencode/dsh/仓库源）MD5 校验一致 f52850edcdf6e1dfb911b1a155d57897 | ~/.config/opencode/AGENTS.md, ~/.dsh/AGENTS.md | git commit: 260819-012318:流程修正重做部署并MD5校验 |
