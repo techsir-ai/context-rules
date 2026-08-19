@@ -1,2 +1,4 @@
 .workbuddy/
 .DS_Store
+# agent 操作日志：本地部署记录，非 SSOT，不进仓库
+*-change-log.md
