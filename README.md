@@ -11,7 +11,7 @@
 1. context.md → ~/.dsh/AGENTS.md（dsh系统级上下文文件）
 
 ## WorkBuddy 适配
-1. context.md → ~/.workbuddy/SOUL.md 部署区（WorkBuddy 实际加载的系统级文件是 SOUL.md；CODEBUDDY.md 不被加载，已废弃，不再作为部署目标）
+1. context.md → ~/.workbuddy/SOUL.md 部署区（WorkBuddy 实际加载的系统级文件是 SOUL.md）
 2. 部署规则（SOUL.md 部署区状态机，执行时不做任何内容判断，只定位分割线）：
    - 分割线 `<!-- context-rules 部署区：以下内容来自云端仓库，更新时整体替换本区；与上方身份区冲突时，以本区为准 -->` 存在 → 分割线以下的全部内容，整体替换为云端 raw 最新 context.md
    - 分割线不存在 → 全文件替换为 [分割线 + 云端 raw 最新 context.md]
